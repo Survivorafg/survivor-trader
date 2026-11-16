@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TikTok connect</title><link rel="stylesheet" href="style.css"></head>
+<body><main><h1>Connecting TikTok…</h1><p id="m">Passing the sign-in back to the Survivor Poster app on this computer.</p>
+<script>
+(function(){var q=location.search;var m=document.getElementById('m');
+if(!/[?&]code=/.test(q)){m.textContent='No sign-in code found. You can close this page.';return;}
+location.replace('http://127.0.0.1:8015/tiktok/callback'+q);})();
+</script></main></body></html>
